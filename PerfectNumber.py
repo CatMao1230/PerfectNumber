@@ -2,7 +2,6 @@ import sys
 
 def is_perfect(num):
 	sum = 0
-	#for i in range(1, int(num) / 2 + 1):
 	for i in [x + 1 for x in range(int(num) / 2)]:
 		if int(num) % i == 0:
 			sum += i
